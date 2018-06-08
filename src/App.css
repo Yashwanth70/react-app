@@ -1,0 +1,65 @@
+.App {
+  text-align: center;
+}
+
+.flexColumn{
+  display: flex;
+  flex-direction: row;
+}
+
+.profile-logo {
+  height: 80px;
+  border-radius: 50%;
+}
+
+.profileWidth{
+  width: 30%;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+}
+
+.profileImage{
+  background-color: gray;
+  padding: 1rem;
+}
+
+ul{
+  list-style-type: none;
+}
+ul  > li {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
+
+ul > li > p {
+  margin: 0;
+  margin-left: 1rem;
+}
+.profileLinks{
+  text-align: left;
+}
+
+.statsCard{
+  background-color: pink;
+  border-radius: 50%;
+  width: 80%;
+}
+
+.statsCard > p{
+  padding: 5%;
+  margin: 0;
+}
+textarea {
+    resize: none;
+}
+.createPost > div{
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+}
+.createPost > div > img {
+  width: 30px;
+  border-radius: 50%;
+}
